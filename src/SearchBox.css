@@ -1,0 +1,61 @@
+body 
+{
+      margin : 0;
+      padding : 0;
+}
+#searchbar-container
+{
+display : flex;
+    justify-content: center;
+    height : 100vh;
+    align-items: center;  
+    background : rgba(28, 124, 250, 0.829);
+}
+.searchbar
+{
+    display : grid;
+    grid-template-columns :  auto auto auto;
+    padding : 10px;
+    width : 500px;
+}
+.logo  , .search-symbol 
+{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+} 
+.logo 
+{
+    background : rgb(2, 2, 32);
+    color : white;
+        border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.input-bar
+{
+    /* height : 98%; */
+    background : green;
+    padding : 0;
+}
+input[type="text"] 
+{
+    padding : 5px;
+    box-sizing : border-box;
+    margin-top: 0px;
+    height : 100%;
+    width : 100%;
+    border : none;
+
+}
+.search-symbol{
+    background : rgba(178, 184, 178, 0.856);
+    width : 50%;
+    text-align : center;
+    color :  rgba(224, 67, 40, 0.801);
+    outline : none;
+}
+.icon 
+{
+    position : fixed;
+    left : 10px;
+    top : 10px;
+}
